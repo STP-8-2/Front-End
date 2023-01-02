@@ -57,7 +57,16 @@ button{
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     color: #445334;
 }
-.container {
+.textbox mat-card{
+    height: 300px;
+    box-shadow: 1px 10px 50px 1px #331306 ;
+    
+}
+.container{
     align-self: center;
-    height: 180px;
+}
+.container img{
+    align-self: center;
+    height: 300px;
+    width: 350px;
 }
