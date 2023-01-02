@@ -13,6 +13,9 @@ import { EndComponent } from './end/end.component';
 import { MatCardModule } from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
 import { VictoryScreenComponent } from './victory-screen/victory-screen.component';
+import { StartScreenComponent } from './start-screen/start-screen.component';
+import { DirectionScreenComponent } from './direction-screen/direction-screen.component';
+import { GeneralDirectionComponent } from './general-direction/general-direction.component';
 
 @NgModule({
   declarations: [
@@ -24,6 +27,9 @@ import { VictoryScreenComponent } from './victory-screen/victory-screen.componen
     DeathScreenComponent,
     EndComponent,
     VictoryScreenComponent,
+    StartScreenComponent,
+    DirectionScreenComponent,
+    GeneralDirectionComponent,
   ],
   imports: [
     BrowserModule,
