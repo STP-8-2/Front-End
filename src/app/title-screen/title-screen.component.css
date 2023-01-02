@@ -15,7 +15,7 @@ mat-card{
     align-items: center;
     background-color:cornsilk;
     border-radius: 10px;
-    box-shadow: 2px 1px 100px 100px cornsilk;
+    box-shadow: 2px 1px 100px 180px cornsilk;
     color:azure;
     font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
 }

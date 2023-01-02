@@ -12,6 +12,7 @@ import { DeathScreenComponent } from './death-screen/death-screen.component';
 import { EndComponent } from './end/end.component';
 import { MatCardModule } from '@angular/material/card';
 import {MatButtonModule} from '@angular/material/button';
+import { VictoryScreenComponent } from './victory-screen/victory-screen.component';
 
 @NgModule({
   declarations: [
@@ -22,6 +23,7 @@ import {MatButtonModule} from '@angular/material/button';
     MapComponent,
     DeathScreenComponent,
     EndComponent,
+    VictoryScreenComponent,
   ],
   imports: [
     BrowserModule,
