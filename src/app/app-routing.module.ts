@@ -6,6 +6,7 @@ import { StartScreenComponent } from './start-screen/start-screen.component';
 import { DirectionScreenComponent } from './direction-screen/direction-screen.component';
 import { EndComponent } from './end/end.component';
 import { InventoryScreenComponent } from './inventory-screen/inventory-screen.component';
+import { GeneralDirectionComponent } from './general-direction/general-direction.component';
 
 const routes: Routes = [
   { path: '', component: TitleScreenComponent},
@@ -13,7 +14,8 @@ const routes: Routes = [
   { path: 'start', component: StartScreenComponent },
   { path: 'direction-first', component: DirectionScreenComponent},
   { path: 'end', component: EndComponent},
-  { path: 'inventory', component: InventoryScreenComponent}
+  { path: 'inventory', component: InventoryScreenComponent}, 
+  { path: 'direction', component: GeneralDirectionComponent}
 ];
 
 @NgModule({
