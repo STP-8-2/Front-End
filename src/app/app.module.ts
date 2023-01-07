@@ -16,6 +16,9 @@ import { VictoryScreenComponent } from './victory-screen/victory-screen.componen
 import { StartScreenComponent } from './start-screen/start-screen.component';
 import { DirectionScreenComponent } from './direction-screen/direction-screen.component';
 import { GeneralDirectionComponent } from './general-direction/general-direction.component';
+import { HeroAttackComponent } from './hero-attack/hero-attack.component';
+import { PoisonScreenComponent } from './poison-screen/poison-screen.component';
+import { ExcerptComponent } from './excerpt/excerpt.component';
 
 @NgModule({
   declarations: [
@@ -30,6 +33,9 @@ import { GeneralDirectionComponent } from './general-direction/general-direction
     StartScreenComponent,
     DirectionScreenComponent,
     GeneralDirectionComponent,
+    HeroAttackComponent,
+    PoisonScreenComponent,
+    ExcerptComponent,
   ],
   imports: [
     BrowserModule,
