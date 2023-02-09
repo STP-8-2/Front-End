@@ -13,10 +13,10 @@
             Here begins your mission to find the princess that was stolen from the kingdom by enemies infected with the deadly plague. 
             How would you describe your fighting style?
             <div class="container"><mat-card-actions>
-                <button mat-raised-button><a href="direction-first" class="has-text-danger-dark">I'm quick on my feet.</a></button>
-                <button mat-raised-button><a href="direction-first" class="has-text-danger-dark">I'm a glass cannon!</a></button>
-                <button mat-raised-button><a href="direction-first" class="has-text-danger-dark">A great warrior is always balanced.</a></button>
-                <button mat-raised-button><a href="direction-first" class="has-text-danger-dark">I'm good at defending.</a></button>
+                <button (click)="characterSelector(1)" mat-raised-button><a href="direction-first" class="has-text-danger-dark">I'm quick on my feet.</a></button>
+                <button (click)="characterSelector(2)" mat-raised-button><a href="direction-first" class="has-text-danger-dark">I'm a glass cannon!</a></button>
+                <button (click)="characterSelector(3)" mat-raised-button><a href="direction-first" class="has-text-danger-dark">A great warrior is always balanced.</a></button>
+                <button (click)="characterSelector(4)" mat-raised-button><a href="direction-first" class="has-text-danger-dark">I'm good at defending.</a></button>
             </mat-card-actions></div>
         </mat-card-content>
             
